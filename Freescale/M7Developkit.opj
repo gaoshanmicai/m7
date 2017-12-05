@@ -1,6 +1,5 @@
 (ExpressProject "M7Developkit"
   (ProjectVersion "19981106")
-  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\library1.olb"
@@ -12,14 +11,46 @@
     (CompileFileAddedOrDeleted "x"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (GND
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SWDebug
+      (FullPartName "SWDebug.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAP0402
+      (FullPartName "CAP0402.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (OSC50m
+      (FullPartName "OSC50m.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (QZPCBRST
+      (FullPartName "QZPCBRST.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\XTAL.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MKV58F1M0VL24
+      (FullPartName "MKV58F1M0VL24-4.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "3")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\m7developkit.dsn")
+      (Path "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\m7developkit.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "F:\Freescale\library1.olb")
-      (Select "Design Resources" "Library" "F:\Freescale\library1.olb"
-         "MKV58F1M0VL24"))
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -29,20 +60,34 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 76 1722 76 507")
-        (Scroll "-311 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -11 -45 38 1692 38 469")
+        (Scroll "-23 104")
+        (Zoom "160")
         (Occurrence "/"))
-      (Path "F:\FREESCALE\M7DEVELOPKIT.DSN")
+      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))
     (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -11 -45 152 1806 152 583")
+        (Scroll "-313 -6")
+        (Zoom "80")
+        (Occurrence "/"))
+      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU"))
+    (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -11 -45 152 1798 152 583")
+        (Placement "44 0 1 -1 -1 -11 -45 0 581 0 402")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "0 0")
-        (Zoom "72"))
-      (Package "MKV58F1M0VL24"))))
+        (Scroll "766 450")
+        (Zoom "395"))
+      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (Package "SWDebug")))
+  (MPSSessionName "Yuan")
+  (LastUsedLibraryBrowseDirectory
+     "E:\Cadence\SPB_16.6\tools\capture\library\pspice"))

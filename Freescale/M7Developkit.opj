@@ -12,6 +12,20 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (J42
+      (FullPartName "J42.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (J26
+      (FullPartName "J26.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -45,38 +59,20 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\m7developkit.dsn")
-      (Path "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\m7developkit.dsn" "Design Cache")
+      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn")
+      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Select "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1" "MCU"))
+      (Path "Design Resources" "Library" "f:\m7\freescale\library1.olb")
+      (Select "Design Resources" "f:\m7\freescale\m7developkit.dsn"
+         "SCHEMATIC1" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -11 -45 0 202 0 375"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 38 1692 38 469")
-        (Scroll "-23 104")
-        (Zoom "160")
-        (Occurrence "/"))
-      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -11 -45 152 1806 152 583")
-        (Scroll "-313 -6")
-        (Zoom "80")
-        (Occurrence "/"))
-      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MCU"))
     (Doc
       (Type "COrPartDoc")
       (Frame
@@ -87,7 +83,59 @@
         (Scroll "766 450")
         (Zoom "395"))
       (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "SWDebug")))
+      (Package "SWDebug"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 190 1434 190 621")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "240 226")
+        (Zoom "144"))
+      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (Package "MKV58F1M0VL24"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 114 1326 114 545")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "193 64")
+        (Zoom "134"))
+      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (Package "J42"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 38 1692 38 469")
+        (Scroll "-23 98")
+        (Zoom "160")
+        (Occurrence "/"))
+      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -11 -45 152 1806 152 583")
+        (Scroll "438 1029")
+        (Zoom "264")
+        (Occurrence "/"))
+      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 0 1244 0 431")
+        (Scroll "0 1149")
+        (Zoom "320")
+        (Occurrence "/"))
+      (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PINOUT")))
   (MPSSessionName "Yuan")
   (LastUsedLibraryBrowseDirectory
      "E:\Cadence\SPB_16.6\tools\capture\library\pspice"))

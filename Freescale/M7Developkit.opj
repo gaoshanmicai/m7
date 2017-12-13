@@ -97,19 +97,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn")
-      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\m7developkit.dsn")
+      (Path "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\m7developkit.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "f:\m7\freescale\library1.olb")
+      (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library" "f:\m7\freescale\library1.olb"))
+      (Select "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1" "pinout"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 202 0 375"))
+        (Placement "44 2 3 -1 -1 -11 -45 0 202 0 375"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
@@ -158,12 +157,12 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -11 -45 38 1250 38 469")
+        (Placement "44 0 1 -1 -1 -11 -45 38 1250 38 469")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "1888 619")
-        (Zoom "430"))
+        (Scroll "1089 51")
+        (Zoom "214"))
       (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
       (Package "CP2102n"))
     (Doc
@@ -180,7 +179,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -11 -45 152 1806 152 583")
-        (Scroll "863 553")
+        (Scroll "773 293")
         (Zoom "264")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
@@ -189,13 +188,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 1244 0 431")
-        (Scroll "0 304")
-        (Zoom "160")
+        (Placement "44 0 1 -1 -1 -11 -45 190 1811 190 621")
+        (Scroll "-298 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PINOUT")))
+      (Page "pinout")))
   (MPSSessionName "Yuan")
   (LastUsedLibraryBrowseDirectory
      "E:\Cadence\SPB_16.6\tools\capture\library\pspice"))

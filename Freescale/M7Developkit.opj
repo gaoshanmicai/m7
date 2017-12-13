@@ -8,62 +8,10 @@
     (File ".\m7developkit.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x")
-    (DRC_Scope "0")
-    (DRC_Action "0")
-    (DRC_Create_Warnings "FALSE")
-    (DRC_View_Output "FALSE")
-    (DRC_Run_Electrical_Rules "TRUE")
-    (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "F:\M7\FREESCALE\M7DEVELOPKIT.DRC")
-    (DRC_Check_Ports "FALSE")
-    (DRC_Check_Off-Page_Connectors "FALSE")
-    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
-    (DRC_SDT_Compatibility "FALSE")
-    (DRC_Report_Off-grid_Objects "FALSE")
-    (DRC_Check_Unconnected_Nets "TRUE")
-    (DRC_Check_for_Misleading_TAP "FALSE")
-    (DRC_Report_Netnames "FALSE")
-    (DRC_Check_Single_Node_Nets "FALSE")
-    (DRC_Check_No_Driving_Source "TRUE")
-    (DRC_Check_Duplicate_NetNames "TRUE")
-    (DRC_Check_Floating_Pins "TRUE")
-    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
-    (DRC_Check_PCB_Footprint_Property "TRUE")
-    (DRC_Check_Normal_Convert_View_Sync "TRUE")
-    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
-    (DRC_Check_High_Speed_Props_Syntax "TRUE")
-    (DRC_Check_Missing_Pin_Numbers "TRUE")
-    (DRC_Check_Device_With_No_Pins "TRUE")
-    (DRC_Check_Power_Ground_Short "TRUE")
-    (DRC_Identical_References "TRUE")
-    (DRC_Type_Mismatch "TRUE")
-    (DRC_Visible_Power_pins "FALSE")
-    (DRC_Report_Unused_Part_Packages "TRUE")
-    (DRC_Check_Name_Prop_For_HierBlocks "FALSE"))
-  (Folder "Outputs"
-    (File ".\m7developkit.drc"
-      (Type "Report")))
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (J20
-      (FullPartName "J20.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (J42
-      (FullPartName "J42.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (J26
-      (FullPartName "J26.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (GND
       (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -102,61 +50,53 @@
       (Path "Design Resources" ".\m7developkit.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
+<<<<<<< HEAD
       (Path "Outputs")
       (Select "Design Resources" "Library" ".\library1.olb" "CAP0402"))
+=======
+      (Select "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1" "PAGE1"))
+>>>>>>> 97bd88a611256887553ea7f2daaa858ffd5995a2
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 202 0 375"))
+        (Placement "44 2 3 -1 -1 -11 -45 0 202 0 375"))
       (Tab 0))
     (Doc
-      (Type "COrPartDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 581 0 402")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "766 450")
-        (Zoom "395"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "SWDebug"))
+        (Placement "44 0 1 -1 -1 -11 -45 190 1908 190 681")
+        (Scroll "0 782")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "E:\M7\FREESCALE\M7DEVELOPKIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 0 1718 0 491")
+        (Scroll "-400 0")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path "E:\M7\FREESCALE\M7DEVELOPKIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 190 1434 190 621")
+        (Placement "44 0 1 -1 -1 -11 -45 76 1794 76 567")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "240 226")
-        (Zoom "144"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "MKV58F1M0VL24"))
+        (Scroll "3952 946")
+        (Zoom "577"))
+      (Path "E:\M7\FREESCALE\LIBRARY1.OLB")
+      (Package "3227RGB"))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 114 1326 114 545")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "193 64")
-        (Zoom "134"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "J42"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 152 1402 152 515")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1332 684")
-        (Zoom "346"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "J20"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
+<<<<<<< HEAD
         (Placement "44 0 1 -1 -1 -11 -45 38 1250 38 469")
         (PackageScroll "0 0")
         (PackageZoom "1")
@@ -196,5 +136,16 @@
       (Schematic "SCHEMATIC1")
       (Page "PINOUT")))
   (MPSSessionName "Yuan")
+=======
+        (Placement "44 0 1 -1 -1 -11 -45 114 1832 114 605")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 14")
+        (Zoom "87"))
+      (Path "E:\M7\FREESCALE\LIBRARY1.OLB")
+      (Package "MKV58F1M0VL24")))
+  (MPSSessionName "mrx_yuan")
+>>>>>>> 97bd88a611256887553ea7f2daaa858ffd5995a2
   (LastUsedLibraryBrowseDirectory
      "E:\Cadence\SPB_16.6\tools\capture\library\pspice"))

@@ -11,7 +11,7 @@
     (CompileFileAddedOrDeleted "x")
     (DRC_Scope "0")
     (DRC_Action "0")
-    (DRC_Create_Warnings "FALSE")
+    (DRC_Create_Warnings "TRUE")
     (DRC_View_Output "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
@@ -40,18 +40,119 @@
     (DRC_Type_Mismatch "TRUE")
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
-    (DRC_Check_Name_Prop_For_HierBlocks "FALSE"))
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "F:\M7\NETLIST")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\M7DEVELOPKIT.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
   (Folder "Outputs"
     (File ".\m7developkit.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File "..\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (J20
-      (FullPartName "J20.Normal")
+    (BAT46W
+      (FullPartName "BAT46W.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BZX84C16/SOT
+      (FullPartName "BZX84C16/SOT.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (2N7002/FAI
+      (FullPartName "2N7002/FAI.Normal")
       (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MMAD1105
+      (FullPartName "MMAD1105.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OP224
+      (FullPartName "OP224.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OP266B
+      (FullPartName "OP266B.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MPF6660
+      (FullPartName "MPF6660.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (8530
+      (FullPartName "8530.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (AP2112-3.3K
+      (FullPartName "AP2112-3.3K.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MKV58F1M0VL24
+      (FullPartName "MKV58F1M0VL24-4.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "3"))
+    (DIP2
+      (FullPartName "DIP2.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ADA4571
+      (FullPartName "ADA4571.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LTC2875
+      (FullPartName "LTC2875.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ADXL316
+      (FullPartName "ADXL316.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_CIRCLE
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CP2102n
+      (FullPartName "CP2102n.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (J20
+      (FullPartName "J20.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (J42
       (FullPartName "J42.Normal")
@@ -61,116 +162,45 @@
       (FullPartName "J26.Normal")
       (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (SWDebug
       (FullPartName "SWDebug.Normal")
       (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CAP0402
-      (FullPartName "CAP0402.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (OSC50m
-      (FullPartName "OSC50m.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (QZPCBRST
-      (FullPartName "QZPCBRST.Normal")
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\XTAL.OLB")
-      (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (MKV58F1M0VL24
-      (FullPartName "MKV58F1M0VL24-4.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "3")))
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\m7developkit.dsn")
-      (Path "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\m7developkit.dsn" "Design Cache")
+      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn")
+      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "f:\m7\freescale\m7developkit.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
+      (Path "Design Resources" "Library" "f:\m7\freescale\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\m7developkit.dsn" "SCHEMATIC1" "pinout"))
+      (Select "Design Resources" "f:\m7\freescale\m7developkit.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -11 -45 0 202 0 375"))
+        (Placement "44 0 1 -1 -1 -11 -45 0 202 0 375"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 581 0 402")
+        (Placement "44 0 1 -1 -1 -11 -45 152 1364 152 643")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "766 450")
-        (Zoom "395"))
+        (Scroll "3635 1301")
+        (Zoom "727"))
       (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "SWDebug"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 190 1434 190 621")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "240 226")
-        (Zoom "144"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "MKV58F1M0VL24"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 114 1326 114 545")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "193 64")
-        (Zoom "134"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "J42"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 152 1402 152 515")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1332 684")
-        (Zoom "346"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "J20"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 38 1250 38 469")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1089 51")
-        (Zoom "214"))
-      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (Package "CP2102n"))
+      (Package "2N7002/FAI"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -11 -45 38 1692 38 469")
-        (Scroll "-23 0")
-        (Zoom "160")
+        (Scroll "-72 165")
+        (Zoom "150")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
@@ -178,9 +208,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 152 1806 152 583")
-        (Scroll "773 293")
-        (Zoom "264")
+        (Placement "44 2 3 -1 -1 -11 -45 152 1806 152 583")
+        (Scroll "595 215")
+        (Zoom "236")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
@@ -189,12 +219,13 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -11 -45 190 1811 190 621")
-        (Scroll "-298 0")
-        (Zoom "100")
+        (Scroll "-420 0")
+        (Zoom "75")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
       (Page "pinout")))
   (MPSSessionName "Yuan")
   (LastUsedLibraryBrowseDirectory
-     "E:\Cadence\SPB_16.6\tools\capture\library\pspice"))
+     "E:\Cadence\SPB_16.6\tools\capture\library\pspice")
+  (ISPCBBASICLICENSE "false"))

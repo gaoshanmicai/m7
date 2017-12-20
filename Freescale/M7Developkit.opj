@@ -75,6 +75,14 @@
     (GND
       (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (DIP2
+      (FullPartName "DIP2.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (3227RGB
+      (FullPartName "3227RGB.Normal")
+      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (BAT46W
       (FullPartName "BAT46W.Normal")
       (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
@@ -118,10 +126,6 @@
       (FullPartName "MKV58F1M0VL24-4.Normal")
       (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
       (DeviceIndex "3"))
-    (DIP2
-      (FullPartName "DIP2.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
     (OFFPAGELEFT-R
       (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -161,10 +165,6 @@
     (J26
       (FullPartName "J26.Normal")
       (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (SWDebug
-      (FullPartName "SWDebug.Normal")
-      (LibraryName "F:\M7\FREESCALE\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -175,8 +175,7 @@
          "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "f:\m7\freescale\library1.olb")
-      (Path "Outputs")
-      (Select "Design Resources" "f:\m7\freescale\m7developkit.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -206,11 +205,22 @@
       (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
       (Package "MKV58F1M0VL24"))
     (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 152 1773 152 643")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3716 946")
+        (Zoom "577"))
+      (Path "F:\M7\FREESCALE\LIBRARY1.OLB")
+      (Package "3227RGB"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -11 -45 38 1692 38 469")
-        (Scroll "1667 1538")
-        (Zoom "356")
+        (Scroll "0 623")
+        (Zoom "178")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
@@ -229,8 +239,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -11 -45 190 1811 190 621")
-        (Scroll "-352 0")
-        (Zoom "89")
+        (Scroll "0 633")
+        (Zoom "178")
         (Occurrence "/"))
       (Path "F:\M7\FREESCALE\M7DEVELOPKIT.DSN")
       (Schematic "SCHEMATIC1")
